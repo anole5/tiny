@@ -16,6 +16,7 @@ public interface OmsPortalOrderService {
     @Transactional
     CommonResult generateOrder(OrderParam orderParam);
 
+
     /**
      * 取消单个超时订单
      */
